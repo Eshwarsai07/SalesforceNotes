@@ -1,1 +1,9 @@
-notes For Salesforce
+master-detail   --> child will be deleted when we delete parent ex: branch CSE child students if we remove CSE all students of CSE will be deleted
+lookUp --> opp to master detail
+
+App in salesforce  --> is 3 things name, list of tabs ,Logo
+
+lookupFilter -->  can be created for both relations  ---> filtering the data related to particular thing in parent object in child  --> we can see lookup fileter on lookup 
+                                                          filed in child 
+roll - up summary --> only for master-detail  --> Roll-Up Summary is a powerful feature that allows you to calculate and display summary information from child records on a parent record. It enables you to perform calculations, such as sums, counts, averages, minimums, or maximums, on a set of related records and store the result on the parent record.
+cross object formula --> both relations ---> retreiving parent details in child as a field 
