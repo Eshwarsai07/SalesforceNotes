@@ -7,3 +7,11 @@ lookupFilter -->  can be created for both relations  ---> filtering the data rel
                                                           filed in child 
 roll - up summary --> only for master-detail  --> Roll-Up Summary is a powerful feature that allows you to calculate and display summary information from child records on a parent record. It enables you to perform calculations, such as sums, counts, averages, minimums, or maximums, on a set of related records and store the result on the parent record.
 cross object formula --> both relations ---> retreiving parent details in child as a field 
+we cannot delete a user record in salesforce
+org level security --> 1)user management 2) passwordpolicy
+obj level security --> 1) profile (sf doesnt allow to edit standered profiles given by salesforce so if we need anyhting we can custom profile)
+                           a) standard profile ( can access all the standered obj)
+                           b)read-only profile 
+                           2) sysAdmin profile all access
+field level security --> in profiles go to particular profile and set the field level security
+record level security ---> we use if we want to restrict the records of a obj to particular profile
